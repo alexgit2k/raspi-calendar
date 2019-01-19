@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Raspberry Pi Calendar Frame</title>
+ <style type="text/css">
+  body {
+   background-color: #f2f2f2;
+   text-align:center;
+  }
+  body, textarea, input {
+   font-family:Helvetica, Arial, Geneva, sans-serif;
+  }
+
+  .EditorDiv {
+   width:100%;
+   box-sizing:border-box;
+   margin:auto;
+   padding:10px;
+   border-radius:25px;
+   border:1px solid #000000;
+   background:#E0E0E0;
+  }
+  .EditorArea {
+   width:100%;
+   height:100%;
+   border:0px;
+   background:#E0E0E0;
+  }
+  .EditorControlArea {
+   font-size:1.5em;
+  }
+  .EditorControlArea input[type="checkbox"] {
+   transform:scale(1.5);
+  }
+  .EditorControlArea button,
+  .EditorControlArea label {
+   margin:0.5em 1em;
+  }
+  .EditorButton {
+   height:2em;
+   width:20%;
+   border-radius:25px;
+   border:none;
+   color:#FFFFFF;
+   background-color:#000000;
+   font-size:inherit;
+  }
+  .EditorButtonMinor {
+   height:2em;
+   background-color:#555555;
+   white-space:normal;
+   width:auto;
+  }
+  /* Spinner */
+  #SpinnerHolderDiv {
+   display:none;
+   position:fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:auto;
+   width:180px;
+   height:180px;
+   z-index:1;
+  }
+  @keyframes Spinner {
+   0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+   }
+   100% {
+     -webkit-transform: translate(-50%, -50%) rotate(360deg);
+     transform: translate(-50%, -50%) rotate(360deg);
+   }
+  }
+  @-webkit-keyframes Spinner {
+   0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
+   }
+   100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg);
+   }
+  }
+  .Spinner div,
+  .Spinner div:after {
+   position: absolute;
+   width: 160px;
+   height: 160px;
+   border: 20px solid #7F7F7F;
+   border-radius: 50%;
+   border-style: dotted;
+  }
+  .Spinner div {
+   -webkit-animation: Spinner 2s linear infinite;
+   animation: Spinner 2s linear infinite;
+   top: 100px;
+   left: 100px;
+  }
+  .Spinner div:after {
+   -webkit-transform: rotate(90deg);
+   transform: rotate(90deg);
+  }
+  .Spinner {
+   width: 200px !important;
+   height: 200px !important;
+   -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+   transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  }
+ </style>
+ <script>
+  function send() {
+
+   // Already hit a button
+   if (document.getElementsByName('action')[0].value != '') {
+    alert('Please wait!');
+    return(false);
+   }
+
+   // Disable all buttons
+   myForm = document.getElementById('EditorForm');
+   for (i=0; i<myForm.length; i++) {
+    if (myForm.elements[i].type=='submit') {
+     myForm.elements[i].disabled = true;
+    }
+   }
+
+   // Save action-button
+   document.getElementsByName('action')[0].value = button;
+
+   // Show spinner
+   SpinnerHolder = document.getElementById('SpinnerHolderDiv').style.display = 'block';
+
+   return(true);
+
+  }
+ </script>
+</head>
+<body>
+ <h1>RasPi Calendar Frame</h1>
+<form class="EditorForm" id="EditorForm" method="POST" onsubmit="return(send());">
+<input type="hidden" name="action" value="" />
+<div class="EditorDiv">
+  <textarea name="content" class="EditorArea" rows="20" placeholder="Text ..."><!-- textarea --></textarea>
+</div>
+<div class="EditorControlArea">
+ <button type="submit" class="EditorButton" onclick='button=this.value;' value="save">Save</button>
+ <label>
+  <input type="checkbox" name="force" value="true" /> Force Update
+ </label>
+ <button type="submit" class="EditorButton EditorButtonMinor" onclick='if(confirm("Are you sure you want to reboot the Raspberry Pi?")){button=this.value;}else{return(false);}' value="reboot">Reboot</button>
+ <button type="submit" class="EditorButton EditorButtonMinor" onclick='if(confirm("Do you sure you want to power off the Raspberry Pi?")){button=this.value;}else{return(false);}' value="poweroff">Power Off</button>
+</div>
+</form>
+
+<div id="SpinnerHolderDiv">
+ <div class="Spinner"><div></div></div>
+</div>
+
+<hr />
+
+<img src="/display" border="1" />
+
+</body>
+</html>
+

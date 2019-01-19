@@ -1,0 +1,6 @@
+01.01.2019 New Year's Day
+21.04.2019 Easter Day
+31.10.2019 Halloween
+24.12.2019 Christmas Eve
+25.12.2019 Christmas Day
+31.12.2019 New Year's Eve

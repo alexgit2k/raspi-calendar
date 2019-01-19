@@ -1,0 +1,56 @@
+#!/usr/bin/python3
+
+# Display
+#displayWidth = 384
+#displayHeight = 640
+displayWidth = 640
+displayHeight = 384
+inverse = False
+image = 'data/display.png' # also in runme.sh
+
+# Date & Update
+timeFormatMain = '%A, %-d. %B %Y'
+timeFormatUpdate = '%H\n%M'
+timeFormatUpdate = '%H:%M'
+timeFormatTextInput = '%d.%m.%Y'
+timeFormatTextInputLen = 10 # dd.mm.yyyy
+timeFormatTextOutput = '%a, %d.%m.'
+timeFormatWeek = '%Y%W' # %Y for turn of the year dates, %U ... sunday first, %W ... monday first
+setToday = '' # Debugging
+
+# Weather
+# Weather from AccuWeather: https://apidev.accuweather.com/developers/legacyAPIGuide
+#  cityID: 178087 ... Berlin (e.g. https://www.accuweather.com/en/search-locations?query=Berlin,Germany -> 178087)
+#  language: en ... English, de ... German, ... (see https://apidev.accuweather.com/developers/languages)
+#  metric: 0 ... imperial, 1 ... metric
+# -> URL: https://htc2.accu-weather.com/widget/htc2/weather-data.asp?location=cityId:178087&metric=1&language=de
+#weatherSrc = 'https://htc2.accu-weather.com/widget/htc2/weather-data.asp?location=cityId:178087&metric=1&language=de'
+weatherSrc = 'data/weather-example.xml'
+weatherTodayText = 'Today'
+weatherNowText = 'Now'
+weatherFromText = 'to'
+
+# Text
+#textFile = 'data/text.txt'
+textFile = 'data/text-example.txt'
+maxLines = 10
+
+# Font
+font = '/usr/share/fonts/truetype/wqy/wqy-microhei.ttc'
+#font = '/usr/share/fonts/truetype/freefont/FreeSans.ttf'
+fontsizeHeader = 24
+fontsizeText = 24
+fontsizeUpdate = 10
+
+# Webserver
+template = 'assets/form.html'
+port = 80
+https = False
+https_keyfile = 'data/host.key'
+https_certfile = 'data/host.cert'
+# Generate certificates for HTTPS
+# openssl genrsa 2048 > data/host.key
+# openssl req -new -x509 -nodes -sha256 -days 365 -key data/host.key -out data/host.cert
+
+# Network-Check
+checkURL = 'https://www.quad9.net'

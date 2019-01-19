@@ -1,0 +1,1125 @@
+<?xml version="1.0"  encoding="utf-8"?>
+	<adc_database xmlns="http://www.accuweather.com">
+		<units>
+			<temp>C</temp>
+			<dist>km</dist>
+			<speed>km/h</speed>
+			<pres>kPa</pres>
+			<prec>mm</prec>
+		</units>
+	
+	<local>
+	<city>Berlin</city>
+        
+	<adminArea code="BE">Berlin</adminArea> 
+        <country code="DE">Germany</country>
+	
+	<lat>52.51767</lat> 
+	<lon>13.40554</lon> 
+	<time>16:22</time> 
+	<timeZone>1</timeZone>
+	<obsDaylight>
+	0
+	</obsDaylight>
+	<currentGmtOffset>1</currentGmtOffset>
+	<timeZoneAbbreviation>CET</timeZoneAbbreviation>	
+	</local>
+	
+                <currentconditions daylight="False">
+                    <url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/current.aspx?p=htc2lw&amp;cityId=178087</url>
+			<observationtime>12:11 AM</observationtime>
+			<pressure state="Steady">103</pressure>
+			<temperature>-1</temperature>
+			<realfeel>-5</realfeel>
+			<humidity>73%</humidity>
+			<weathertext>cloudy</weathertext>
+			<weathericon>07</weathericon>
+			<windgusts>18</windgusts>
+			<windspeed>13</windspeed>
+			<winddirection>315</winddirection>
+			<visibility>16</visibility>
+			<precip>0.0</precip>
+			<uvindex index="0">Low</uvindex>
+			<dewpoint>-5</dewpoint>
+			<cloudcover>100%</cloudcover>
+			<apparenttemp>-1</apparenttemp>
+			<windchill>-6</windchill>
+		</currentconditions>
+<planets>
+<sun rise="8:05 AM" set="4:33 PM"/>
+<moon rise="1/4/2019 6:29:00 AM" set="1/4/2019 3:27:00 PM"/>
+<mercury rise="6:05 AM" set="2:21 PM"/>
+<venus rise="3:11 AM" set="12:50 PM"/>
+<mars rise="10:22 AM" set="10:35 PM"/>
+<jupiter rise="4:45 AM" set="1:24 PM"/>
+<saturn rise="6:56 AM" set="3:26 PM"/>
+<uranus rise="11:16 AM" set="1:00 AM"/>
+<neptune rise="9:52 AM" set="8:56 PM"/>
+<pluto rise="7:32 AM" set="4:08 PM"/>
+</planets>
+
+			<moon>
+				
+					<phase date="1/4/2019" text="Waning Crescent" >26</phase>
+			
+					<phase date="1/5/2019" text="Waning Crescent" >27</phase>
+			
+					<phase date="1/6/2019" text="New" >1</phase>
+			
+					<phase date="1/7/2019" text="New" >1</phase>
+			
+					<phase date="1/8/2019" text="Waxing Crescent" >2</phase>
+			
+					<phase date="1/9/2019" text="Waxing Crescent" >3</phase>
+			
+					<phase date="1/10/2019" text="Waxing Crescent" >4</phase>
+			
+					<phase date="1/11/2019" text="Waxing Crescent" >5</phase>
+			
+					<phase date="1/12/2019" text="Waxing Crescent" >6</phase>
+			
+					<phase date="1/13/2019" text="First" >7</phase>
+			
+					<phase date="1/14/2019" text="First" >7</phase>
+			
+					<phase date="1/15/2019" text="Waxing Gibbous" >9</phase>
+			
+					<phase date="1/16/2019" text="Waxing Gibbous" >10</phase>
+			
+					<phase date="1/17/2019" text="Waxing Gibbous" >11</phase>
+			
+					<phase date="1/18/2019" text="Waxing Gibbous" >12</phase>
+			
+					<phase date="1/19/2019" text="Waxing Gibbous" >13</phase>
+			
+					<phase date="1/20/2019" text="Full" >14</phase>
+			
+					<phase date="1/21/2019" text="Full" >14</phase>
+			
+					<phase date="1/22/2019" text="Waning Gibbous" >16</phase>
+			
+					<phase date="1/23/2019" text="Waning Gibbous" >17</phase>
+			
+					<phase date="1/24/2019" text="Waning Gibbous" >18</phase>
+			
+					<phase date="1/25/2019" text="Waning Gibbous" >19</phase>
+			
+					<phase date="1/26/2019" text="Waning Gibbous" >20</phase>
+			
+					<phase date="1/27/2019" text="Last" >21</phase>
+			
+					<phase date="1/28/2019" text="Last" >21</phase>
+			
+					<phase date="1/29/2019" text="Waning Crescent" >22</phase>
+			
+					<phase date="1/30/2019" text="Waning Crescent" >23</phase>
+			
+					<phase date="1/31/2019" text="Waning Crescent" >24</phase>
+			
+					<phase date="2/1/2019" text="Waning Crescent" >25</phase>
+			
+					<phase date="2/2/2019" text="Waning Crescent" >26</phase>
+			
+					<phase date="2/3/2019" text="Waning Crescent" >27</phase>
+			
+					<phase date="2/4/2019" text="New" >1</phase>
+			
+			</moon>
+		
+			<forecast>
+				<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/forecast.aspx?p=htc2lw&amp;cityId=178087</url>
+					
+					<day number="1">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details1.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/4/2019</obsdate>
+					<daycode>friday</daycode>
+					
+						<sunrise>8:05 AM</sunrise>
+						<sunset>4:33 PM</sunset>
+					
+					<daytime>
+						<txtshort>intermittent snowfall</txtshort>
+						<txtlong>intermittent snowfall</txtlong>
+						<weathericon>22</weathericon>
+						<hightemperature>0</hightemperature>
+						<lowtemperature>-1</lowtemperature>
+						<realfeelhigh>-5</realfeelhigh>
+						<realfeellow>-7</realfeellow>
+						<windspeed>11</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>18</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>3.78</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>3.0</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>snowfall</txtshort>
+						<txtlong>snowfall</txtlong>
+						<weathericon>22</weathericon>
+						<hightemperature>0</hightemperature>
+						<lowtemperature>-1</lowtemperature>
+						<realfeelhigh>-5</realfeelhigh>
+						<realfeellow>-8</realfeellow>
+						<windspeed>14</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>23</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>7.47</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>7.5</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="2">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details2.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/5/2019</obsdate>
+					<daycode>saturday</daycode>
+					
+						<sunrise>8:04 AM</sunrise>
+						<sunset>4:34 PM</sunset>
+					
+					<daytime>
+						<txtshort>snowfall</txtshort>
+						<txtlong>snowfall</txtlong>
+						<weathericon>22</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>2</lowtemperature>
+						<realfeelhigh>-6</realfeelhigh>
+						<realfeellow>-8</realfeellow>
+						<windspeed>21</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>31</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>6.10</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>7.5</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>intermittent rain</txtshort>
+						<txtlong>intermittent rain</txtlong>
+						<weathericon>18</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>2</lowtemperature>
+						<realfeelhigh>-4</realfeelhigh>
+						<realfeellow>-6</realfeellow>
+						<windspeed>18</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>24</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>8.4</rainamount>
+						<snowamount>0.00</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>8.4</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="3">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details3.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/6/2019</obsdate>
+					<daycode>sunday</daycode>
+					
+						<sunrise>8:04 AM</sunrise>
+						<sunset>4:35 PM</sunset>
+					
+					<daytime>
+						<txtshort>intermittent snow and rain</txtshort>
+						<txtlong>intermittent snow and rain</txtlong>
+						<weathericon>29</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>0</lowtemperature>
+						<realfeelhigh>-4</realfeelhigh>
+						<realfeellow>-7</realfeellow>
+						<windspeed>19</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>32</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>4.6</rainamount>
+						<snowamount>2.44</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>8.2</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>snow</txtshort>
+						<txtlong>snow</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>0</lowtemperature>
+						<realfeelhigh>-2</realfeelhigh>
+						<realfeellow>-5</realfeellow>
+						<windspeed>10</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>18</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>2.44</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>2.9</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="4">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details4.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/7/2019</obsdate>
+					<daycode>monday</daycode>
+					
+						<sunrise>8:04 AM</sunrise>
+						<sunset>4:37 PM</sunset>
+					
+					<daytime>
+						<txtshort>occasional snow and snow flurries</txtshort>
+						<txtlong>occasional snow and snow flurries</txtlong>
+						<weathericon>22</weathericon>
+						<hightemperature>1</hightemperature>
+						<lowtemperature>-4</lowtemperature>
+						<realfeelhigh>-1</realfeelhigh>
+						<realfeellow>-3</realfeellow>
+						<windspeed>8</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>11</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>1.63</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>1.6</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>some snow showers</txtshort>
+						<txtlong>some snow showers</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>1</hightemperature>
+						<lowtemperature>-4</lowtemperature>
+						<realfeelhigh>-3</realfeelhigh>
+						<realfeellow>-7</realfeellow>
+						<windspeed>8</windspeed>
+						<winddirection>225</winddirection>
+						<windgust>14</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>1.02</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>0.6</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="5">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details5.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/8/2019</obsdate>
+					<daycode>tuesday</daycode>
+					
+						<sunrise>8:04 AM</sunrise>
+						<sunset>4:38 PM</sunset>
+					
+					<daytime>
+						<txtshort>some snow showers</txtshort>
+						<txtlong>some snow showers</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>3</hightemperature>
+						<lowtemperature>1</lowtemperature>
+						<realfeelhigh>-5</realfeelhigh>
+						<realfeellow>-8</realfeellow>
+						<windspeed>21</windspeed>
+						<winddirection>247.5</winddirection>
+						<windgust>35</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>0.25</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>0.2</precipamount>
+						<tstormprob>20</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>some snow</txtshort>
+						<txtlong>some snow</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>3</hightemperature>
+						<lowtemperature>1</lowtemperature>
+						<realfeelhigh>-5</realfeelhigh>
+						<realfeellow>-7</realfeellow>
+						<windspeed>23</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>32</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>1.45</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>2.5</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="6">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details6.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/9/2019</obsdate>
+					<daycode>wednesday</daycode>
+					
+						<sunrise>8:03 AM</sunrise>
+						<sunset>4:39 PM</sunset>
+					
+					<daytime>
+						<txtshort>some showers</txtshort>
+						<txtlong>some showers</txtlong>
+						<weathericon>12</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>-3</lowtemperature>
+						<realfeelhigh>-4</realfeelhigh>
+						<realfeellow>-7</realfeellow>
+						<windspeed>18</windspeed>
+						<winddirection>292.5</winddirection>
+						<windgust>24</windgust>
+						<maxuv>1</maxuv>
+						<rainamount>3.0</rainamount>
+						<snowamount>0.00</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>3.0</precipamount>
+						<tstormprob>20</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>snowfall</txtshort>
+						<txtlong>snowfall</txtlong>
+						<weathericon>22</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>-3</lowtemperature>
+						<realfeelhigh>-6</realfeelhigh>
+						<realfeellow>-8</realfeellow>
+						<windspeed>13</windspeed>
+						<winddirection>292.5</winddirection>
+						<windgust>19</windgust>
+						<maxuv>1</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>5.08</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>4.3</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="7">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details7.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/10/2019</obsdate>
+					<daycode>thursday</daycode>
+					
+						<sunrise>8:03 AM</sunrise>
+						<sunset>4:40 PM</sunset>
+					
+					<daytime>
+						<txtshort>snow shower or stronger gusts of snow</txtshort>
+						<txtlong>snow shower or stronger gusts of snow</txtlong>
+						<weathericon>22</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>-6</lowtemperature>
+						<realfeelhigh>-3</realfeelhigh>
+						<realfeellow>-7</realfeellow>
+						<windspeed>14</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>35</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>4.93</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>4.0</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>some snow</txtshort>
+						<txtlong>some snow</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>2</hightemperature>
+						<lowtemperature>-6</lowtemperature>
+						<realfeelhigh>-7</realfeelhigh>
+						<realfeellow>-9</realfeellow>
+						<windspeed>11</windspeed>
+						<winddirection>292.5</winddirection>
+						<windgust>27</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>1.27</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>1.0</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="8">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details8.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/11/2019</obsdate>
+					<daycode>friday</daycode>
+					
+						<sunrise>8:02 AM</sunrise>
+						<sunset>4:41 PM</sunset>
+					
+					<daytime>
+						<txtshort>some snow</txtshort>
+						<txtlong>some snow</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>-3</hightemperature>
+						<lowtemperature>-9</lowtemperature>
+						<realfeelhigh>-6</realfeelhigh>
+						<realfeellow>-10</realfeellow>
+						<windspeed>10</windspeed>
+						<winddirection>315</winddirection>
+						<windgust>24</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>1.12</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>0.8</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>some snow flurries</txtshort>
+						<txtlong>some snow flurries</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>-3</hightemperature>
+						<lowtemperature>-9</lowtemperature>
+						<realfeelhigh>-8</realfeelhigh>
+						<realfeellow>-11</realfeellow>
+						<windspeed>8</windspeed>
+						<winddirection>292.5</winddirection>
+						<windgust>24</windgust>
+						<maxuv>0</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>0.79</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>0.4</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+					
+					<day number="9">
+						<url>http://www.accuweather.com/m/en-us/DE/BE/Berlin/details9.aspx?p=htc2lw&amp;cityId=178087</url>
+					<obsdate>1/12/2019</obsdate>
+					<daycode>saturday</daycode>
+					
+						<sunrise>8:02 AM</sunrise>
+						<sunset>4:43 PM</sunset>
+					
+					<daytime>
+						<txtshort>some snow</txtshort>
+						<txtlong>some snow</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>-4</hightemperature>
+						<lowtemperature>-8</lowtemperature>
+						<realfeelhigh>-6</realfeelhigh>
+						<realfeellow>-10</realfeellow>
+						<windspeed>8</windspeed>
+						<winddirection>292.5</winddirection>
+						<windgust>21</windgust>
+						<maxuv>1</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>0.61</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>0.4</precipamount>
+						<tstormprob>0</tstormprob>
+					</daytime>
+					<nighttime>
+						<txtshort>some snow flurries</txtshort>
+						<txtlong>some snow flurries</txtlong>
+						<weathericon>19</weathericon>
+						<hightemperature>-4</hightemperature>
+						<lowtemperature>-8</lowtemperature>
+						<realfeelhigh>-6</realfeelhigh>
+						<realfeellow>-8</realfeellow>
+						<windspeed>5</windspeed>
+						<winddirection>270</winddirection>
+						<windgust>13</windgust>
+						<maxuv>1</maxuv>
+						<rainamount>0.0</rainamount>
+						<snowamount>0.41</snowamount>
+						<iceamount>0.0</iceamount>
+						<precipamount>0.3</precipamount>
+						<tstormprob>0</tstormprob>
+					</nighttime>
+
+					</day>
+				
+                                <hourly>
+                                
+                                 <hour time="1 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-4</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>NW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly1.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="2 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-4</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>NW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly2.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="3 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-4</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly3.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="4 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-4</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly4.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="5 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-4</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly5.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="6 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly6.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="7 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly7.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="8 AM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>9</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly8.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="9 AM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>-2</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.06</precip>
+                                        
+                                            <windspeed>11</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly9.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="10 AM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>-1</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.06</precip>
+                                        
+                                            <windspeed>11</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly10.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="11 AM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>-1</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.06</precip>
+                                        
+                                            <windspeed>11</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly11.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="12 PM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>-1</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly12.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="1 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>-1</temperature>
+                                        
+                                            <realfeel>-6</realfeel>
+                                        
+                                            <precip>0.04</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly13.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="2 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-6</realfeel>
+                                        
+                                            <precip>0.05</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly14.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="3 PM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly15.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="4 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-6</realfeel>
+                                        
+                                            <precip>0.04</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>WNW</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly16.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="5 PM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly17.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="6 PM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly18.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="7 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>-1</temperature>
+                                        
+                                            <realfeel>-6</realfeel>
+                                        
+                                            <precip>0.05</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly19.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="8 PM">
+                                 
+                                            <weathericon>07</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-5</realfeel>
+                                        
+                                            <precip>0.00</precip>
+                                        
+                                            <windspeed>12</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>cloudy</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly20.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="9 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.05</precip>
+                                        
+                                            <windspeed>14</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly21.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="10 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.05</precip>
+                                        
+                                            <windspeed>14</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly22.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="11 PM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.05</precip>
+                                        
+                                            <windspeed>14</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/4/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly23.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 <hour time="12 AM">
+                                 
+                                            <weathericon>22</weathericon>
+                                        
+                                            <temperature>0</temperature>
+                                        
+                                            <realfeel>-7</realfeel>
+                                        
+                                            <precip>0.05</precip>
+                                        
+                                            <windspeed>14</windspeed>
+                                        
+						<winddirection>W</winddirection>
+					    
+						<txtshort>snowfall</txtshort>
+					    
+                                            <obsdate>1/5/2019</obsdate>
+                                        
+                                            <mobileLink>http://www.accuweather.com/m/en-us/DE/BE/Berlin/hourly24.aspx?partner=htc2lw&amp;cityId=178087</mobileLink>
+					
+                                 
+                                 </hour>
+                                 
+                                 </hourly>
+                                
+			</forecast>
+			
+		<copyright>Copyright 2019 AccuWeather.com</copyright>
+		<use>This document is intended only for use by authorized licensees of AccuWeather.com. Unauthorized use is prohibited. All Rights Reserved.</use>
+		<product>htc2 feed</product>
+		<redistribution>Redistribution Prohibited.</redistribution>
+	</adc_database>
